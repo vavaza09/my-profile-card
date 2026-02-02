@@ -17,6 +17,9 @@ import ProfileCard from './components/ProfileCard.vue';
         githubicon="./src/assets/githubicion.png"
         facebookicon="./src/assets/facebookicon.png"
         instagramicon="./src/assets/instagram.png"
+        github="https://github.com/vavaza09"
+        facebook="https://www.facebook.com/thanasorn.dujsadeeroj.7/"
+        instagram="https://www.instagram.com/savaki_tns/?hl=en"
     />
     <ProfileCard 
         background="./src/assets/workbg.jpg"
@@ -29,6 +32,9 @@ import ProfileCard from './components/ProfileCard.vue';
         githubicon="./src/assets/githubicion.png"
         facebookicon="./src/assets/facebookicon.png"
         instagramicon="./src/assets/instagram.png"
+        github="https://www.instagram.com/k_nodpok/?hl=en"
+        facebook="https://www.instagram.com/k_nodpok/?hl=en"
+        instagram="https://www.instagram.com/k_nodpok/?hl=en"
     />
     <ProfileCard 
         background="./src/assets/workbg.jpg"
@@ -41,6 +47,9 @@ import ProfileCard from './components/ProfileCard.vue';
         githubicon="./src/assets/githubicion.png"
         facebookicon="./src/assets/facebookicon.png"
         instagramicon="./src/assets/instagram.png"
+        github = "https://github.com/supakornn"
+        facebook="https://www.facebook.com/supakornigm"
+        instagram="https://www.instagram.com/supakornigm/?hl=en"
     />
     </div>
 </template>

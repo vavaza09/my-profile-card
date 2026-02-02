@@ -9,7 +9,10 @@
         "projects",
         "githubicon" ,
         "facebookicon",
-        "instagramicon"
+        "instagramicon",
+        "github",
+        "facebook",
+        "instagram"
     ]);
 </script>
 
@@ -64,15 +67,15 @@
              </div>
         </div>
         <div class=" px-6 pb-6 flex items-center">
-            <img :src="githubicon" alt="GitHub Link" class=" w-10 h-10
+            <a :href="github" target="_blank" class=" w-10 h-10
              mx-auto cursor-pointer hover:scale-110
-              transition-transform duration-300">
-            <img :src="facebookicon" alt="facebook" class=" w-10 h-10
+              transition-transform duration-300"><img :src="githubicon" alt="GitHub Link" ></a>
+            <a :href="facebook" target="_blank" class=" w-10 h-10
              mx-auto cursor-pointer hover:scale-110
-              transition-transform duration-300">
-            <img :src="instagramicon" alt="instagram" class=" w-10 h-10
+              transition-transform duration-300"><img :src="facebookicon" alt="facebook" ></a>
+            <a :href="instagram" target="_blank" class=" w-10 h-10
              mx-auto cursor-pointer hover:scale-110
-              transition-transform duration-300">
+              transition-transform duration-300"><img :src="instagramicon" alt="instagram" ></a>
         </div>
      </div>
 </template>
